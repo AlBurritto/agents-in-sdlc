@@ -2,7 +2,7 @@
 title: "演習 0: 前提条件"
 authors:
   - geektrainer
-lastUpdated: 2026-06-30
+lastUpdated: 2026-09-18
 ---
 
 Copilot CLI の演習を始める前に、必要な準備を整えます。Tailspin Toys リポジトリの自分用コピーを作成し、[codespace][codespaces] を立ち上げます。次の演習では、その統合ターミナルを使って Copilot CLI をインストールし、実行します。
@@ -11,7 +11,7 @@ Copilot CLI の演習を始める前に、必要な準備を整えます。Tails
 
 これから作成するコード用にリポジトリのコピーを作成するため、[template][template-repository] からインスタンスを作成します。新しいインスタンスにはラボに必要なすべてのファイルが含まれており、演習を進める間はこのリポジトリを使用します。
 
-1. 新しいブラウザー ウィンドウで、このラボの GitHub リポジトリ `https://github.com/github-samples/tailspin-toys` に移動します。
+1. 新しいブラウザー ウィンドウで [Tailspin Toys テンプレート][tailspin-template]を開きます。
 2. ラボ用リポジトリ ページの **Use this template** ボタンを選択して、自分用のリポジトリ コピーを作成します。次に **Create a new repository** を選択します。
 
     ![「Use this template」ボタン](../../../_images/ex0-use-template.png)
@@ -26,6 +26,8 @@ Copilot CLI の演習を始める前に、必要な準備を整えます。Tails
 > **バックログの準備は完了しています**
 >
 > テンプレートからリポジトリを作成すると、GitHub issue のバックログが自動的に作成されます。ワークショップ全体を通してこれらの issue を使って作業するため、自分で起票する必要はありません。
+
+ワークショップのテンプレートの新しいコピーを使用してください。リポジトリの指示、アプリケーションコード、テスト、`quality-checks` スキル、演習で使用するバックログが含まれています。古いコピーを使用する場合は、必要なファイルが揃っているか進行役に確認してください。
 
 ## Codespace を作成する
 
@@ -69,3 +71,4 @@ Copilot CLI をインストールし、GitHub アカウントで認証しまし�
 [template-repository]: https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-template-repository
 [codespaces-quickstart]: https://docs.github.com/codespaces/getting-started/quickstart
 [next-lesson]: ../1-install-copilot-cli/
+[tailspin-template]: https://github.com/github-samples/tailspin-toys
